@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.Scanner;
 
 class PaySlip {
@@ -24,8 +23,8 @@ class PaySlip {
     void proc() {
         DA = BP * 0.28;
         HRA = BP * 0.14;
-        CCA = 1000;
-        MA = 2000;
+        CCA = 500;
+        MA = 1000;
 
         PF = 3000;
         PT = 200;
